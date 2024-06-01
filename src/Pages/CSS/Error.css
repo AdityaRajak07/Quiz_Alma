@@ -1,0 +1,158 @@
+.top-box {
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.main-box {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Image/found.jpg");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.error-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-line {
+    width: 2px;
+    height: 45px;
+    background-color: #DC7633;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.status-code {
+    font-size: 40px;
+    font-weight: bold;
+    color: #DC7633;
+    margin-top: 20px;
+    font-family: serif;
+}
+.error-message {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #5D6D7E;
+}
+.bottom-box {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 35%;
+}
+.message {
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    color: #5D6D7E;
+}
+
+.return-button {
+    width: 150px;
+    height: 40px;
+    background-color: #DC7633;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 12%;
+    margin-right: 10px;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 1px 3px 3px 1px #AEB6BF;
+}
+
+/* Styles for screen widths between 768.1px and 1200px */
+@media (min-width: 768.1px) and (max-width: 1200px) {
+    .top-box {
+        margin-top: 5%; /* Adjust the margin-top value as needed */
+    }
+
+    .main-box {
+        height: 40vh; /* Adjust the height as needed */
+        background-size: 60%; /* Adjust the background size as needed */
+    }
+
+    .vertical-line {
+        height: 35px; /* Adjust the height as needed */
+        margin-left: 5px; /* Adjust the margin-left value as needed */
+        margin-right: 5px; /* Adjust the margin-right value as needed */
+    }
+
+    .status-code {
+        font-size: 30px; /* Adjust the font size as needed */
+        margin-top: 10px; /* Adjust the margin-top value as needed */
+    }
+
+    .error-message {
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+
+    .bottom-box {
+        margin-bottom: 5%; /* Adjust the margin-bottom value as needed */
+        margin-left: 25%; /* Adjust the margin-left value as needed */
+    }
+
+    .message {
+        font-size: 15px; /* Adjust the font size as needed */
+    }
+
+    .return-button {
+        width: 120px; /* Adjust the button width as needed */
+        height: 35px; /* Adjust the button height as needed */
+        font-size: 12px; /* Adjust the font size as needed */
+        margin-top: 10px; /* Adjust the margin-top value as needed */
+        margin-left: 5px; /* Adjust the margin-left value as needed */
+    }
+}
+
+/* Styles for screen widths equal to or greater than 768px (including 768px) */
+@media (max-width: 768px) {
+    .top-box {
+        margin-top: 5%; /* Adjust the margin-top value as needed */
+    }
+
+    .main-box {
+        height: 40vh; /* Adjust the height as needed */
+        background-size: 60%; /* Adjust the background size as needed */
+    }
+
+    .vertical-line {
+        height: 35px; /* Adjust the height as needed */
+        margin-left: 5px; /* Adjust the margin-left value as needed */
+        margin-right: 5px; /* Adjust the margin-right value as needed */
+    }
+
+    .status-code {
+        font-size: 30px; /* Adjust the font size as needed */
+        margin-top: 10px; /* Adjust the margin-top value as needed */
+    }
+
+    .error-message {
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+
+    .bottom-box {
+        margin-bottom: 5%; /* Adjust the margin-bottom value as needed */
+        margin-left: 25%; /* Adjust the margin-left value as needed */
+    }
+
+    .message {
+        font-size: 15px; /* Adjust the font size as needed */
+    }
+
+    .return-button {
+        width: 120px; /* Adjust the button width as needed */
+        height: 35px; /* Adjust the button height as needed */
+        font-size: 12px; /* Adjust the font size as needed */
+        margin-top: 10px; /* Adjust the margin-top value as needed */
+        margin-left: 5px; /* Adjust the margin-left value as needed */
+    }
+}

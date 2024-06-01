@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-description {
+    margin-bottom: 5%;
+}
+
+.quiz-info {
+    margin-top: 2%;
+    color: #283747;
+    font-size: 18px;
+}
+
+.quiz-info:after {
+    display: none;
+}
+
+.input-name {
+    margin-bottom: 9%;
+}
+
+.question-found {
+    width: 100%; /* Adjust the width as needed for small screens */
+    max-width: 700px; /* Add a maximum width for larger screens */
+    height: auto; /* Adjust the height as needed */
+}
+
+.user-name {
+    width: 100%; /* Adjust the width as needed for small screens */
+    max-width: 330px; /* Add a maximum width for larger screens */
+    border-radius: 10px;
+    margin-top: 5%;
+    height: 50px;
+    font-size: 18px;
+    background: #ffffff;
+    color: #525865;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0px 1px 2px #34423A;
+    font-family: inherit;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+}
+
+.user-name:hover {
+    box-shadow: inset 1px 2px 8px #525865;
+}
+
+@media screen and (max-width: 768.1px) and (max-width: 1200px) {
+    .mainContainer {
+        margin: 10px; /* Adjust the margin as needed */
+    }
+
+    .question-found {
+        max-width: 100%; /* Adjust the maximum width for small screens */
+        height: auto; /* Adjust the height as needed */
+    }
+
+    .user-name {
+        max-width: 100%; /* Adjust the maximum width for small screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        margin: 10px; /* Adjust the margin as needed */
+    }
+
+    .question-found {
+        max-width: 100%; /* Adjust the maximum width for small screens */
+        height: auto; /* Adjust the height as needed */
+    }
+
+    .user-name {
+        max-width: 100%; /* Adjust the maximum width for small screens */
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -120px 60px;
+    }
+}
+
+#InfoBanner {
+    margin-bottom: 10px;
+    position: absolute;
+    left: -15px;
+    top: 115px;
+    text-align: center;
+    width: 100%;
+}
